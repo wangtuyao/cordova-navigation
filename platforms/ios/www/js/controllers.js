@@ -10,7 +10,9 @@ angular.module('starter.controllers', [])
 
     $scope.forward=function(chat) {
  
-        $window.plugins.navigation.forward("index.html/#/detail/"+chat.id, {}, function() {}, function() {});
+        $window.plugins.navigation.forward("index.html/#/chats/"+chat.id, {
+            title:"Chats Detail"
+        }, function() {}, function() {});
     }
 })
 
