@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>E259792B-1375-4127-A4FA-BE1242BE5A7B</string>
+	<key>IDESourceControlProjectName</key>
+	<string>myApp</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>2361A9D2A27916215168D0A4DAF31B76C39EDA2B</key>
+		<string>github.com:wangtuyao/cordova-navgation.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>platforms/ios/myApp.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>2361A9D2A27916215168D0A4DAF31B76C39EDA2B</key>
+		<string>../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>github.com:wangtuyao/cordova-navgation.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>2361A9D2A27916215168D0A4DAF31B76C39EDA2B</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>2361A9D2A27916215168D0A4DAF31B76C39EDA2B</string>
+			<key>IDESourceControlWCCName</key>
+			<string>cordova-navigation</string>
+		</dict>
+	</array>
+</dict>
+</plist>
