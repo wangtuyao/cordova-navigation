@@ -12,7 +12,7 @@
     //NSDictionary* options = [command.arguments objectAtIndex:0];
     WTBaseViewController *vc =[[WTBaseViewController alloc] init];
     vc.startPage =(NSString *)str;
-    vc.title=@"hello";
+    vc.title=@"chat detail";
     [[self getNavigationController] pushViewController:vc animated:YES];
     
 }

@@ -4,4 +4,9 @@
 
 @implementation MainViewController
 
- @end
+-(void)viewDidLoad{
+    [super viewDidLoad];
+    self.title=@"Chats";
+}
+
+@end
