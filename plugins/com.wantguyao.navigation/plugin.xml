@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+ 
+
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
+    xmlns:rim="http://www.blackberry.com/ns/widgets"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    id="com.wantguyao.navigation"
+    version="0.0.1">
+    <name>Navigation</name>
+    <description>Navigation</description>
+    <keywords>navigation</keywords>
+   <author email="admin@wangtuyao.com" href="http://cordova.io">
+        wxq
+    </author>
+    <content src="index.html" />
+    <access origin="*" />
+  
+    <js-module src="www/navigation.js" name="navigation">
+        <clobbers target="window.plugins.navigation"/>
+    </js-module>
+
+ 
+
+    <!-- ios -->
+    <platform name="ios">
+        <config-file target="config.xml" parent="/*">
+            <feature name="Navigation">
+                <param name="ios-package" value="WTNavigation"/>
+            </feature>
+        </config-file>
+
+        <header-file src="src/ios/WTNavigation.h" />
+        <source-file src="src/ios/WTNavigation.m" />
+    </platform>
+ 
+
+</plugin>
