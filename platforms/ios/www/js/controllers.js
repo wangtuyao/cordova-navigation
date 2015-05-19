@@ -1,18 +1,23 @@
-angular.module('starter.controllers', [])
+angular.module('starter.controllers', ["starter.directive"])
 
 .controller('DashCtrl', function($scope) {})
 
-.controller('ChatsCtrl', function($window,$scope, Chats) {
+.controller('ChatsCtrl', function($window, $scope, Chats, navigation) {
     $scope.chats = Chats.all();
     $scope.remove = function(chat) {
         Chats.remove(chat);
     }
 
-    $scope.forward=function(chat) {
- 
-        $window.plugins.navigation.forward("index.html/#/chats/"+chat.id, {
-            title:"Chats Detail"
-        }, function() {}, function() {});
+    $scope.forward = function(chat) {
+
+        // $window.plugins.navigation.forward("index.html/#/chats/"+chat.id, {
+        //     title:"Chats Detail"
+        // }, function() {}, function() {});
+        navigation.forward("index.html/#/chats/" + chat.id, {
+            title: "Chart Detail Native"
+        });
+
+
     }
 })
 
